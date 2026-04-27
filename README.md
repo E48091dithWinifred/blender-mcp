@@ -78,4 +78,4 @@ Otherwise installation instructions are on their website: [Install uv](https://d
 
 **⚠️ Do not proceed before installing UV**
 
-> **Personal note:** I found that on Windows, restarting the terminal (not just Claude Desktop) was necessary for the `uv` command to be recognized after installation. If you see a "uv not found" error, close all terminal windows and open a fresh one before trying again.
+> **Personal note:** I found that on Windows, restarting the terminal (not just Claude Desktop) was necessary for the `uv` PATH changes to take effect. Also worth noting: if you have multiple versions of Python installed, make sure `python --version` reports 3.10 or newer before running the MCP server.
