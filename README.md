@@ -78,8 +78,4 @@ Otherwise installation instructions are on their website: [Install uv](https://d
 
 **⚠️ Do not proceed before installing UV**
 
-> **Personal note:** I found that on Windows, restarting the terminal (not just Claude Desktop) was also necessary before `uv` was recognized on the PATH. If you see a "uv not found" error, try opening a fresh terminal window first.
-
-### Environment Variables
-
-The following environment variables can be used to configure the Blend
+> **Personal note:** I found that on Windows, restarting the terminal (not just Claude Desktop) was necessary for the `uv` command to be recognized after installation. If you see a "uv not found" error, close all terminal windows and open a fresh one before trying again.
