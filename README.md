@@ -78,4 +78,4 @@ Otherwise installation instructions are on their website: [Install uv](https://d
 
 **⚠️ Do not proceed before installing UV**
 
-> **Personal note:** I found that on Windows, restarting the terminal (not just Claude Desktop) was necessary for the `uv` PATH changes to take effect. Also worth noting: if you have multiple versions of Python installed, make sure `python --version` reports 3.10 or newer before running the MCP server.
+> **Personal note:** I found that on Windows, restarting the terminal (not just Claude Desktop) was necessary for the `uv` command to be recognized after installation. Also, make sure Blender is running and the addon server is started *before* launching Claude Desktop, otherwise the connection will fail silently.
